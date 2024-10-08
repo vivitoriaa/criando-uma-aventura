@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(96, 168, 129, 91);
+    color: rgb(255, 255, 255);
+    font-family: "Indie Flower", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+
+}
+
+button {
+    background-color: rgb(147, 98, 96, 58);
+    color: rgb(255, 255, 255);
+    font-family: "Indie Flower", cursive;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
